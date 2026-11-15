@@ -31,4 +31,63 @@ Os demais registros foram tratados separadamente:
 - 1.499 exames pertenciam à unidade LabApoio e não se aplicavam ao SLA hospitalar utilizado na análise.
 - 1.525 registros não apresentavam TAT válido.
 
-Essa separação foi importante para evitar que registros sem critérios de avaliação fossem incorporados indevidamente aos indicadores.
+**Essa separação foi importante para evitar que registros sem critérios de avaliação fossem incorporados indevidamente aos indicadores.**
+
+## Insigths
+Ao aprofundar a análise, alguns resultados chamaram atenção:
+- UTI: concentra o maior número absoluto de exames fora do SLA.
+- Pronto Atendimento: apresenta uma taxa de não cumprimento de aproximadamente 1,1%.
+- INTER III: apresenta uma taxa de 17,7%.
+- BIOQ: concentra o maior volume de atrasos entre as áreas técnicas.
+- HEM: apresenta 18,2% de exames fora do SLA.
+- IMU: apresenta uma taxa de 86,9%, resultado que merece investigação mais aprofundada.
+Esses números mostram por que olhar apenas para o volume de atrasos não é suficiente. É necessário considerar também a proporção de exames fora do prazo e o contexto de cada área.
+
+## Ferramentas utilizadas
+- Power BI: construção das análises e visualizações.
+- Power Query: preparação e transformação dos dados.
+- DAX: desenvolvimento de medidas e indicadores.
+- GitHub: organização e documentação do projeto.
+## Organização do projeto
+LabMetrics/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── dashboard/
+│   ├── README.md
+│   └── screenshots/
+│
+├── docs/
+│   ├── 01_contexto_e_objetivos.md
+│   ├── 02_regras_de_negocio.md
+│   ├── 03_modelagem_de_dados.md
+│   ├── 04_indicadores_e_medidas.md
+│   ├── 05_insights_e_storytelling.md
+│   └── 06_evolucao_do_projeto.md
+│
+├── data/
+│   └── README.md
+│
+└── assets/
+    └── README.md
+## Documentação
+- Contexto e objetivos
+- Regras de negócio
+- Modelagem de dados
+- Indicadores e medidas
+- Insights e storytelling
+- Evolução do projeto
+Status
+O LabMetrics continua em desenvolvimento.
+
+Ainda existem análises a aprofundar, hipóteses a investigar e melhorias a implementar. A ideia é documentar essa evolução à medida que o projeto avança.
+
+
+
+
+
+
+
+Mostrar menos
