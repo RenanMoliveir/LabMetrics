@@ -29,6 +29,8 @@ O modelo foi organizado em **uma tabela fato e cinco tabelas dimensão**, permit
 | `dim_origem` | Dimensão | Permitir análises por origem da solicitação. |
 | `dim_ocorrencia` | Dimensão | Organizar informações relacionadas às ocorrências laboratoriais. |
 
+
+
 ![Modelo dimensional do LabMetrics](../dashboard/screenshots/modelagem_dados.jpg)
 
 ## Tabela fato
