@@ -1,4 +1,5 @@
 # Regras de Negócio
+![Regras de Negócio](https://img.shields.io/badge/Documentação-Regras_de_Negócio-00897B?style=for-the-badge)
 
 ## Definição do TAT
 
