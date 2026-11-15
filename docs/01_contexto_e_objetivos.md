@@ -1,4 +1,5 @@
 # Contexto e Objetivos
+![Contexto](https://img.shields.io/badge/Documentação-Contexto_e_Objetivos-607D8B?style=for-the-badge)
 
 ## Contexto
 A rotina de um laboratório de análises clínicas envolve diferentes etapas, desde a solicitação e coleta das amostras até o processamento e a liberação dos resultados.
