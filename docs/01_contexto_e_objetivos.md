@@ -4,7 +4,7 @@
 A rotina de um laboratório de análises clínicas envolve diferentes etapas, desde a solicitação e coleta das amostras até o processamento e a liberação dos resultados.
 Durante esse processo, são gerados dados que permitem acompanhar não apenas os exames realizados, mas também o desempenho operacional do laboratório.
 Entre os indicadores utilizados nesse acompanhamento está o **Turnaround Time (TAT)**, que representa o tempo decorrido entre duas etapas definidas do processo laboratorial.<br>
-Neste projeto, o TAT operacional foi definido como o intervalo entre a triagem da amostra no laboratório e a liberação do resultado.
+Neste projeto, o TAT operacional foi definido como o **intervalo entre a triagem da amostra no laboratório e a liberação do resultado**.
 A partir desse indicador, é possível avaliar o cumprimento dos prazos estabelecidos para a liberação dos exames, considerando as regras de negócio aplicáveis a cada situação.
 
 ## Problema analisado
