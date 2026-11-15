@@ -29,6 +29,8 @@ O modelo foi organizado em **uma tabela fato e cinco tabelas dimensão**, permit
 | `dim_origem` | Dimensão | Permitir análises por origem da solicitação. |
 | `dim_ocorrencia` | Dimensão | Organizar informações relacionadas às ocorrências laboratoriais. |
 
+![Modelo dimensional do LabMetrics](../dashboard/screenshots/modelagem_dados.jpg)
+
 ## Tabela fato
 A tabela `fato_exames` representa a estrutura central do modelo analítico.
 Ela reúne os registros utilizados para calcular os indicadores de desempenho, incluindo informações relacionadas à identificação dos exames, origem, área técnica e etapas do processamento.
@@ -88,4 +90,4 @@ A documentação dos cálculos está disponível em [Indicadores e Medidas](04_i
 ## Considerações
 A modelagem dimensional foi utilizada para organizar os dados e facilitar a construção das análises no Power BI.
 A separação entre a tabela fato e as dimensões contribui para manter o modelo mais compreensível, facilitar a manutenção das medidas e permitir novas análises conforme o projeto evolui.
-![Modelo dimensional do LabMetrics](dashboard/screenshots/modelagem_dados.jpg)
+
