@@ -35,19 +35,19 @@ Os demais registros foram tratados separadamente:
 
 ## Insigths
 Ao aprofundar a análise, alguns resultados chamaram atenção:
-- UTI: concentra o maior número absoluto de exames fora do SLA.
-- Pronto Atendimento: apresenta uma taxa de não cumprimento de aproximadamente 1,1%.
-- INTER III: apresenta uma taxa de 17,7%.
-- BIOQ: concentra o maior volume de atrasos entre as áreas técnicas.
-- HEM: apresenta 18,2% de exames fora do SLA.
-- IMU: apresenta uma taxa de 86,9%, resultado que merece investigação mais aprofundada.
+- **UTI**: concentra o maior número absoluto de exames fora do SLA.
+- **Pronto** Atendimento: apresenta uma taxa de não cumprimento de aproximadamente 1,1%.
+- **INTER III**: apresenta uma taxa de 17,7%.
+- **BIOQ**: concentra o maior volume de atrasos entre as áreas técnicas.
+- **HEM**: apresenta 18,2% de exames fora do SLA.
+- **IMU**: apresenta uma taxa de 86,9%, resultado que merece investigação mais aprofundada.
 Esses números mostram por que olhar apenas para o volume de atrasos não é suficiente. É necessário considerar também a proporção de exames fora do prazo e o contexto de cada área.
 
 ## Ferramentas utilizadas
-- Power BI: construção das análises e visualizações.
-- Power Query: preparação e transformação dos dados.
-- DAX: desenvolvimento de medidas e indicadores.
-- GitHub: organização e documentação do projeto.
+- **Power BI**: construção das análises e visualizações.
+- **Power Query**: preparação e transformação dos dados.
+- **DAX**: desenvolvimento de medidas e indicadores.
+- **GitHub**: organização e documentação do projeto.
 
 
 
