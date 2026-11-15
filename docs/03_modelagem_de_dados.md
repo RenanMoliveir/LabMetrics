@@ -1,5 +1,5 @@
 # Modelagem de Dados
-
+![Modelagem](https://img.shields.io/badge/Power_BI-Modelagem_Dimensional-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ## Contexto
 Após a exploração inicial da base, foi necessário organizar os dados para facilitar a construção dos indicadores e permitir análises por diferentes perspectivas.
 Para isso, foi utilizada uma abordagem de **modelagem dimensional**, seguindo o conceito de **modelo estrela (Star Schema)**.
