@@ -59,7 +59,6 @@ Os registros que não atendem a esses critérios são tratados separadamente, ev
 ## Classificação dos registros
 
 A base utilizada contém **22.805 registros de exames**, referentes a janeiro de 2025.
-
 Após a aplicação das regras de negócio, os registros foram classificados da seguinte forma:
 
 | Classificação | Registros | Percentual |
@@ -70,7 +69,6 @@ Após a aplicação das regras de negócio, os registros foram classificados da 
 | **Total** | **22.805** | **100%** |
 
 Os exames elegíveis representam o conjunto utilizado no cálculo dos indicadores de cumprimento do SLA.
-
 Os registros da unidade LabApoio foram separados por não estarem contemplados nas metas hospitalares utilizadas nesta análise.
 Já os registros sem TAT válido não apresentam informações temporais suficientes para avaliação.
 **Essa separação permite que os indicadores considerem exclusivamente os exames sujeitos às regras de SLA estabelecidas.**
@@ -89,29 +87,20 @@ Os indicadores foram calculados considerando exclusivamente os **19.781 exames e
 O percentual de cumprimento é calculado pela relação entre os exames liberados dentro do prazo e o total de exames elegíveis.
 
 **Cumprimento do SLA (%) = (Exames dentro do SLA / Exames elegíveis) × 100**
-
 Da mesma forma, o percentual de não cumprimento considera os exames que ultrapassaram o prazo estabelecido.
-
 **Fora do SLA (%) = (Exames fora do SLA / Exames elegíveis) × 100**
 
 ## Tratamento de registros sem TAT válido
 
 Durante a preparação dos dados, foram identificados registros com informações temporais ausentes ou insuficientes para o cálculo do TAT.
-
 Esses registros não foram classificados automaticamente como exames atrasados.
-
 A ausência de informações temporais pode estar relacionada a diferentes situações operacionais, como ocorrências durante o processamento das amostras, ou a limitações na extração dos dados.
-
 Entretanto, essas possibilidades não foram consideradas causas confirmadas.
-
 Por esse motivo, os registros sem TAT válido foram mantidos em uma classificação separada, permitindo investigações posteriores sem comprometer os indicadores de SLA.
 
 ## Limitações
 
 O TAT operacional utilizado no projeto considera apenas o intervalo entre a triagem da amostra e a liberação do resultado.
-
 Dessa forma, não representa necessariamente todo o tempo decorrido desde a solicitação médica até a disponibilização do exame.
-
 Além disso, o descumprimento de uma meta de SLA não permite identificar automaticamente a causa do atraso.
-
 Os indicadores permitem localizar situações que merecem investigação, mas sua interpretação deve considerar as características dos exames, as etapas do processo e as limitações dos dados disponíveis.
