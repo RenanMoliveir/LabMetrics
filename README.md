@@ -20,11 +20,11 @@ Dos 22.805 registros analisados, 19.781 foram considerados elegíveis para avali
 Os resultados desse grupo foram:
 
 | Indicador | Resultado |
-|---|---:|
-| Exames dentro do SLA | 18.193 |
-| Exames fora do SLA | 1.588 |
-| Cumprimento do SLA | 92,0% |
-| Fora do SLA | 8,0% |
+|:---|---:|
+| 🟢 Exames dentro do SLA | **18.193** |
+| 🔴 Exames fora do SLA | **1.588** |
+| 🟢 Cumprimento do SLA | **92,0%** |
+| 🔴 Não cumprimento do SLA | **8,0%** |
 
 Os demais registros foram tratados separadamente:
 
