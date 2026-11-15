@@ -88,3 +88,4 @@ A documentação dos cálculos está disponível em [Indicadores e Medidas](04_i
 ## Considerações
 A modelagem dimensional foi utilizada para organizar os dados e facilitar a construção das análises no Power BI.
 A separação entre a tabela fato e as dimensões contribui para manter o modelo mais compreensível, facilitar a manutenção das medidas e permitir novas análises conforme o projeto evolui.
+![Modelo dimensional do LabMetrics](../dashboard/screenshots/modelagem_dados.png)
